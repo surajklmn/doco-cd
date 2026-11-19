@@ -6,3 +6,8 @@ compose_files: [compose.yml]
 name: my-app
 working_dir: app 
 compose_files: [compose.yml]
+
+---
+name: nginx-test
+working_dir: nginx-test
+compose_files: [compose.yaml]
