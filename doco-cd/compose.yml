@@ -1,6 +1,6 @@
 services:
   doco-cd:
-    image: ghcr.io/kimdre/doco-cd:0.125.1:latest
+    image: ghcr.io/kimdre/doco-cd:latest
     restart: unless-stopped
 
     environment:
@@ -15,6 +15,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - data:/data
+
     healthcheck:
       interval: 10s
       timeout: 5s
@@ -23,5 +24,3 @@ services:
 
 volumes:
   data:
-
-
