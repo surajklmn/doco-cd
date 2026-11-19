@@ -21,7 +21,7 @@ services:
       start_period: 15s
       retries: 3
 
-  volumes:
-    data:
+volumes:
+  data:
 
 

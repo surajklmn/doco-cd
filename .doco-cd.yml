@@ -3,7 +3,7 @@ working_dir: doco-cd
 compose_files: [compose.yml]
 
 
----
-name: my-app
-working_dir: app 
-compose_files: [compose.yml]
+# ---
+# name: my-app
+# working_dir: app 
+# compose_files: [compose.yml]
